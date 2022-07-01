@@ -1,0 +1,121 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+}
+
+#containerL{
+    margin: 0;
+    height: 100%;
+    width: 11%;
+
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#containerR{
+    margin: 0;
+    height: 100%;
+    width: 89%;
+
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+#logoMenu{                              /* Configuração do ID headMenu */
+    background: #0047AB;
+    height: 75px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    
+    /*font-family: Papyrus, fantasy;*/
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;    
+    color: #FAFAFA;  
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+}
+
+#headMenu{
+    height: 75px;
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #02409C;
+    float: inline-end;
+    color: #FAFAFA;
+    font-size: 29px;    
+}
+
+#indice{
+    padding-left: 2%;
+}
+
+#user{
+    padding-right: 1%;
+
+    background-color: #02409C;
+    float: inline-end;
+    color: #FAFAFA;
+    font-size: 18px;
+}
+
+#menuLateral{                           /* Configuração do ID MenuLateral */
+    background-color: #1450AB;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.botao{                                 /* Configuração da CLASSE botao */
+    width: 160px;
+    height: 40px;
+    background-color: #1450AB;
+    color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 27px;
+}
+
+#content{
+    background-color: #002966;
+    color: #FAFAFA;
+    height: 100%;
+    width: 100%;
+
+
+    /* PRESTAR ATENÇÃO NESSAS PORRA DE CONFIGURAÇÃO*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
